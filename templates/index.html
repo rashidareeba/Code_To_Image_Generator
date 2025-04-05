@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code to Image Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>📸 Code to Image Generator</h1>
+        <div class="editor-container">
+            <form id="codeForm">
+                <div class="toolbar">
+                    <select name="language" id="language">
+                        <option value="python">Python</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="java">Java</option>
+                    </select>
+                    <button type="submit" class="generate-btn">Generate Image</button>
+                </div>
+                <textarea name="code" id="code" placeholder="Enter your code here..."></textarea>
+            </form>
+        </div>
+        <div id="result" class="hidden">
+            <div class="preview-container">
+                <img id="outputImage" alt="Generated code image">
+                <div class="preview-actions">
+                    <a id="downloadLink" class="btn" download>
+                        ⬇ Download Image
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

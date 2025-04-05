@@ -1,0 +1,13 @@
+prefix=/home/areeba/code-image-generator/flask
+exec_prefix=/home/areeba/code-image-generator/flask
+libdir=/home/areeba/code-image-generator/flask/lib
+sharedlibdir=/home/areeba/code-image-generator/flask/lib
+includedir=/home/areeba/code-image-generator/flask/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

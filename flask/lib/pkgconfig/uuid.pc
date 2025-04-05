@@ -1,0 +1,11 @@
+prefix=/home/areeba/code-image-generator/flask
+exec_prefix=/home/areeba/code-image-generator/flask
+libdir=/home/areeba/code-image-generator/flask/lib
+includedir=/home/areeba/code-image-generator/flask/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
