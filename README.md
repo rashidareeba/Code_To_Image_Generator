@@ -67,9 +67,9 @@ To run this project on your local machine, follow the steps below.
 ## Screenshot
 
 Here is a screenshot of the application:
-![Screenshot from 2025-04-05 14-16-09](https://github.com/user-attachments/assets/34a118ca-0dd4-4a6e-8fa2-5756a86210e1)
 ![Screenshot from 2025-04-05 14-15-59](https://github.com/user-attachments/assets/b00bf0fb-0c08-464a-a6aa-024de27ca33e)
 ![Screenshot from 2025-04-05 13-42-30](https://github.com/user-attachments/assets/e2237794-ac60-4355-bbe5-339c23ab3d71)
+![Screenshot from 2025-04-05 14-16-09](https://github.com/user-attachments/assets/34a118ca-0dd4-4a6e-8fa2-5756a86210e1)
 
 ## Usage
 
